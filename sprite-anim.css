@@ -1,8 +1,9 @@
+/* definition af sprite størrelse og kilde-billede */
 .sprite {
     width: 500px;
     height: 500px;
     background: url(sprite-anim-01.png) 0 0 no-repeat;
-     animation: housefly 1s steps(12) infinite;
+    animation: housefly 1s steps(12) infinite;
 }
 
 @keyframes housefly {
